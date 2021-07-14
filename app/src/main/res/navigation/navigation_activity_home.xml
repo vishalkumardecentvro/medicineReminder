@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/navigation_activity_home"
+  app:startDestination="@id/medicineReminder">
+
+  <fragment
+    android:id="@+id/medicineReminder"
+    android:name="com.example.medicinereminder.MedicineReminderFragment"
+    android:label="Set Reminder"
+    tools:layout="@layout/fragment_medicine_reminder" />
+</navigation>

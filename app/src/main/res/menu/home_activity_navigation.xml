@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/medicineReminder"
+    android:title="Set Reminder"
+    android:icon="@drawable/reminder"
+    />
+
+  <item
+    android:id="@+id/consultDoctor"
+    android:title="Consult Doctor"
+    android:icon="@drawable/doctor"
+    />
+
+  <item
+    android:id="@+id/purchaseMedicine"
+    android:title="Purchase Medicine"
+    android:icon="@drawable/pills"
+    />
+
+</menu>
