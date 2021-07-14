@@ -23,8 +23,8 @@
   <!--    5% — 0D-->
   <!--    0% — 00-->
 
-  <color name="primary">#ea2010</color>
-  <color name="primaryDark">#bf190d</color>
+  <color name="primary">#3385ff</color>
+  <color name="primaryDark">#0066ff</color>
   <color name="primaryLight">#fcd2cf</color>
 
   <color name="secondary">#F7F7F7</color>

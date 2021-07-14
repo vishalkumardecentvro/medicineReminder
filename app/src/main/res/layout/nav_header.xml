@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/primary"
+  android:paddingTop="50dp"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+      android:id="@+id/imgProfile"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_marginBottom="10dp"
+      android:contentDescription="User's Picture"
+      android:scaleType="centerCrop"
+      android:src="@drawable/default_user" />
+
+    <TextView
+      android:id="@+id/lblUserName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Username"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/lblDesignation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:text="Designation"
+      android:textColor="@color/white"
+      android:textSize="16dp" />
+
+  </LinearLayout>
+
+</LinearLayout>
